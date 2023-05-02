@@ -1,5 +1,5 @@
-const htmlmin = require('html-minifier')
-const critical = require('critical')
+const htmlmin = import('html-minifier')
+const critical = import('critical')
 const buildDir = 'dist'
 
 const shouldTransformHTML = (outputPath) =>
