@@ -1,44 +1,44 @@
 {
-    "name": "Anna Quincey",
-    "occupation": "Front-End Developer",
-    "location": "Vienna, AT",
+    "name": "Johan Edlund",
+    "occupation": "Designer & Developer",
+    "location": "Malmö, Sweden",
     "avatar": "avatar.jpg",
-    "pronouns": "she/her",
-    "email": "anna.quincey@gmail.com",
-    "telephone": "+01 23 456 789",
-    "website": "https://annaquincey.dev",
+    "pronouns": "",
+    "email": "pjohanedlund@gmail.com",
+    "telephone": "+46 70 60 22 495",
+    "website": "https://www.johanedlund.se",
     "skills": [
         "HTML",
         "CSS",
         "Javascript / ES6",
         "UI Design",
-        "React",
+        "UX Design",
         "Git"
     ],
     "languages": [
         {
-            "name": "English",
+            "name": "Swedish",
             "level": "native"
         },
         {
-            "name": "German",
+            "name": "English",
             "level": "fluent"
         },
         {
-            "name": "French",
+            "name": "German",
             "level": "basic"
         }
     ],
     "social": [
         {
             "name": "Github",
-            "user": "@annaquincey",
-            "url": "https://github.com/annaquincey"
+            "user": "@pjedlund",
+            "url": "https://github.com/pjedlund"
         },
         {
             "name": "LinkedIn",
-            "user": "AnnaQncy",
-            "url": "https://www.linkedin.com/in/annaquincey"
+            "user": "pjedlund",
+            "url": "https://www.linkedin.com/in/pjedlund"
         }
     ]
 }
