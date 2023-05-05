@@ -32,6 +32,9 @@
         display: flex;
         align-items: center;
         margin-right: 1rem;
+        
+        //for tap target size - 2023-05-05
+        padding:.3rem;
 
         @include hover-focus {
             text-decoration: none;
