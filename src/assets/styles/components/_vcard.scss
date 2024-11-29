@@ -1,3 +1,6 @@
+@use "../utils/mixins";
+@use "../utils/variables";
+
 .vcard {
     display: flex;
     flex-wrap: wrap;
@@ -20,13 +23,13 @@
         flex: 0 0 11rem;
         border-radius: 50%;
         border: 5px solid #fff;
-        box-shadow: $box-shadow-elevated;
-        margin-right: $spacing-x;
+        box-shadow: variables.$box-shadow-elevated;
+        margin-right: variables.$spacing-x;
     }
     &__pronouns {
         font-size: 1.125rem;
-        font-family: $font-family-serif;
-        color: $gray;
+        font-family: variables.$font-family-serif;
+        color: variables.$gray;
     }
     &__link {
         display: flex;
@@ -36,7 +39,7 @@
         //for tap target size - 2023-05-05
         padding:.3rem;
 
-        @include hover-focus {
+        @include mixins.hover-focus {
             text-decoration: none;
             
             .vcard__link-text {
@@ -49,7 +52,7 @@
         }
     }
 
-    @include mq(md) {
+    @include mixins.mq(md) {
         &__social {
             display: flex;
             flex-wrap: wrap;
@@ -63,13 +66,13 @@
         }
     }
 
-    @include mq(lg) {
-        padding: $spacing-y 0;
+    @include mixins.mq(lg) {
+        padding: variables.$spacing-y 0;
 
         @supports (display: grid) {
             &__avatar {
                 position: fixed;
-                top: calc(#{$spacing-y} + 1rem);
+                top: calc(#{variables.$spacing-y} + 1rem);
                 right: 75%;
                 transform: translateX(25%);
                 transition: transform 0.2s ease;
