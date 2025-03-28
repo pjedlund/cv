@@ -1,7 +1,7 @@
 {
     "name": "resume",
     "version": "1.1.1",
-    "description": "An online resume",
+    "description": "Resumé for Johan Edlund",
     "scripts": {
         "start": "npm run dev",
         "dev": "run-s clean eleventy:dev",
@@ -13,9 +13,9 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/maxboeck/resume"
+        "url": "https://github.com/pjedlund/cv"
     },
-    "author": "Max Böck",
+    "author": "Johan Edlund",
     "license": "MIT",
     "dependencies": {
         "@11ty/eleventy": "^2.0.1",
