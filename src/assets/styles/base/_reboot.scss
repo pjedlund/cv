@@ -1,4 +1,4 @@
-@use "../utils/variables";
+@use '../utils/variables';
 
 // Reboot
 //
@@ -84,7 +84,7 @@ body {
 
     color: variables.$text-color;
     color: var(--text-color, variables.$text-color);
-    background-color: variables.$bg-color;
+    background-color: #f4f4f2;
 
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;

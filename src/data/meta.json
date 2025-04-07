@@ -3,7 +3,7 @@
     "lang": "en",
     "locale": "en_us",
     "colors": {
-        "primary": "#BBBFCA",
-        "secondary": "#495464"
+        "primary": "#495464",
+        "secondary": "#BBBFCA"
     }
 }

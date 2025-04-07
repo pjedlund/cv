@@ -1,5 +1,5 @@
-@use "../utils/mixins";
-@use "../utils/variables";
+@use '../utils/mixins';
+@use '../utils/variables';
 
 // Main Site Layout
 
@@ -27,7 +27,7 @@ body {
     .footer {
         grid-area: footer;
         padding: variables.$spacing-y 0;
-        background-color: variables.$gray-light;
+        background-color: #e8e8e8;
     }
 
     @include mixins.mq(lg) {
