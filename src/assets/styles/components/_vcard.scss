@@ -1,5 +1,5 @@
-@use "../utils/mixins";
-@use "../utils/variables";
+@use '../utils/mixins';
+@use '../utils/variables';
 
 .vcard {
     display: flex;
@@ -16,6 +16,7 @@
     }
     &__subtitle {
         margin-bottom: 1rem;
+        margin-top: 0.2rem;
     }
     &__avatar {
         width: 11rem;
@@ -35,13 +36,13 @@
         display: flex;
         align-items: center;
         margin-right: 1rem;
-        
+
         //for tap target size - 2023-05-05
-        padding:.3rem;
+        padding: 0 0.3rem 0.5rem 0;
 
         @include mixins.hover-focus {
             text-decoration: none;
-            
+
             .vcard__link-text {
                 text-decoration: underline;
             }
