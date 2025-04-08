@@ -23,14 +23,9 @@
         height: 11rem;
         flex: 0 0 11rem;
         border-radius: 50%;
-        border: 5px solid #fff;
+        border: 5px solid #e8e8e8;
         box-shadow: variables.$box-shadow-elevated;
         margin-right: variables.$spacing-x;
-    }
-    &__pronouns {
-        font-size: 1.125rem;
-        font-family: variables.$font-family-serif;
-        color: variables.$gray;
     }
     &__link {
         display: flex;
