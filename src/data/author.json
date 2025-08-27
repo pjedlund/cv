@@ -2,7 +2,7 @@
     "name": "Johan Edlund",
     "occupation": "Designer and Developer",
     "location": "Malmö, Sweden",
-    "avatar": "avatar.jpg",
+    "avatar": "avatar.webp",
     "pronouns": "",
     "email": "pjohanedlund@gmail.com",
     "telephone": "+46 70 60 22 495",
@@ -10,13 +10,12 @@
     "skills": [
         "HTML",
         "CSS",
-        "Javascript / ES6",
+        "Javascript / Typescript",
         "UI Design",
         "UX Design",
         "Git"
     ],
-    "languages": [
-        {
+    "languages": [{
             "name": "Swedish",
             "level": "native"
         },
@@ -29,8 +28,7 @@
             "level": "basic"
         }
     ],
-    "social": [
-        {
+    "social": [{
             "name": "Github",
             "user": "@pjedlund",
             "url": "https://github.com/pjedlund"
