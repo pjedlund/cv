@@ -21,6 +21,7 @@
 html {
     box-sizing: border-box;
     overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 *,
@@ -51,15 +52,19 @@ html {
     @-moz-viewport {
         width: device-width;
     }
+
     @-ms-viewport {
         width: device-width;
     }
+
     @-o-viewport {
         width: device-width;
     }
+
     @-webkit-viewport {
         width: device-width;
     }
+
     @viewport {
         width: device-width;
     }
@@ -240,6 +245,7 @@ input[type='search'] {
     background: var(--primary-color, variables.$primary-color);
     color: #fff;
 }
+
 ::-moz-selection {
     background: variables.$primary-color;
     background: var(--primary-color, variables.$primary-color);

@@ -1,5 +1,5 @@
 ---
-title: 4-year technical program
+title: 4-year Technical Program
 organization: Kongahällagymnasiet
 location: Kungälv
 start: 1985-08-15

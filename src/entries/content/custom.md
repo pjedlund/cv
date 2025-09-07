@@ -3,9 +3,10 @@ tags: custom
 title: Interests
 ---
 
-This is custom content. You can add [anything you want](https://www.youtube.com/watch?v=dQw4w9WgXcQ) in here.
-
-* Reading
-* Punk Rock
-* Climbing
-* Archery
+<ul class="bulletlist">
+<li>Reading: Leo Tolstoy</li>
+<li>Listening to: Three Trapped Tigers</li>
+<li>Running: Orienteering</li>
+<li>Playing: Three-Cushion Billiards</li>
+<li>Eating: Vegan Wok</li>
+</ul>

@@ -61,7 +61,8 @@ a {
 
 // dotted line below abbr
 abbr {
-    border-bottom: 2px dotted variables.$primary-color;
+    border-bottom: 1px dotted variables.$primary-color;
+    text-decoration: none;
 }
 
 .lead {
@@ -70,7 +71,7 @@ abbr {
     line-height: 1.5;
     max-width: 60ch;
 
-    p + p {
+    p+p {
         margin-top: 1rem;
     }
 

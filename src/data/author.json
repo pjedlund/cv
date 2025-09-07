@@ -1,6 +1,6 @@
 {
     "name": "Johan Edlund",
-    "occupation": "Designer and Developer",
+    "occupation": "UX/UI-Designer and Front-End Developer",
     "location": "Malmö, Sweden",
     "avatar": "avatar.jpg",
     "pronouns": "",
@@ -8,12 +8,11 @@
     "telephone": "+46 70 60 22 495",
     "website": "https://www.johanedlund.se",
     "skills": [
-        "HTML",
-        "CSS",
-        "Javascript / Typescript",
+        "HTML - CSS - Javascript/Typescript",
+        "WordPress - PHP - MySQL",
+        "Jamstack - Node.js - npm - Git",
         "UI Design",
-        "UX Design",
-        "Git"
+        "UX Design: "
     ],
     "languages": [{
             "name": "Swedish",

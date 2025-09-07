@@ -22,3 +22,11 @@
         }
     }
 }
+
+.bgPortfolio {
+    margin-top: 5em;
+    padding-top: 3em;
+    padding-bottom: 4em;
+    color: variables.$text-color-secondary;
+    background: variables.$bg-color-portfolio;
+}

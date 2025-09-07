@@ -6,10 +6,9 @@ const transforms = require('./utils/transforms.js')
 const shortcodes = require('./utils/shortcodes.js')
 const iconsprite = require('./utils/iconsprite.js')
 
-module.exports = function (config) {
+module.exports = function(config) {
     // Plugins
     config.addPlugin(pluginRss)
-
     // Filters
     Object.keys(filters).forEach((filterName) => {
         config.addFilter(filterName, filters[filterName])
@@ -49,7 +48,7 @@ module.exports = function (config) {
     // Collections
     const collections = ['work', 'education']
     collections.forEach((name) => {
-        config.addCollection(name, function (collection) {
+        config.addCollection(name, function(collection) {
             const folderRegex = new RegExp(`\/${name}\/`)
             const inEntryFolder = (item) =>
                 item.inputPath.match(folderRegex) !== null
