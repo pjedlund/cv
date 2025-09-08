@@ -1,0 +1,150 @@
+/*-------- Snow v2  --------*/
+/*-- Layout --*/
+html {margin:0;padding:0;color:#555;background:#F7F7F5 url(../images/v2/bgtile.gif) repeat-x;font-size:100%;}
+body {margin:0;padding:0;text-align:center;font:normal 76%/160% Georgia, "Times New Roman", Times, serif;color:#555;background:#F7F7F5 url(../images/v2/bgtile.gif) repeat-x;}
+#CB {margin:0 auto;padding:0;text-align:left;width:387px;color:#333;background:transparent;font-size:0.9em;}
+#Header {margin:0;padding:0;background:transparent;height:70px;position:relative;}
+
+/* Neutralize styling: */
+fieldset,h1,h2,h3,h4,h5,h6,p,pre,blockquote,ul,li,ol,dl,address{margin:0 9px;padding:0;}
+
+/*general links*/
+a:link {font-weight:bold;color:#4F5B60; text-decoration:none; border-bottom:#999 1px dotted;}
+a:visited {font-weight:bold;color:#4F5B60; text-decoration:none;border-bottom:#999 1px dotted;}
+a:hover {font-weight:bold;color:#C12D06;text-decoration:none;border-bottom:#C12D06 1px solid;}
+a:active {font-weight:bold;text-decoration:none; border-bottom:#C12D06 1px solid;}
+
+.entry {margin-bottom:20px;}
+.entry p {margin-bottom:10px;}
+.entryimage {color:#999; background:url(../images/v2/imagebg.gif) no-repeat; height:150px; width:387px;padding-left:11px;}
+a.thickbox:link, a.thickbox:visited, a.thickbox:hover, a.thickbox:active {margin:0;padding:0;border:none;}
+.entryimage img {display:inline;margin:11px 0 0 0;padding:0;border:none;background:transparent;}
+p.bullet {text-indent:16px;background: url(../images/v2/snowbullet.gif) 0 2px no-repeat;}
+
+/*-- Various --*/
+.off-left {position:absolute;left:-999px;width:999px;}
+hr, .hidden {display:none;}
+.hr {clear:both;text-align:center;height:9px;width:368px;margin:10px auto;line-height:9px;font-size:9px;color:#666;background: url(../images/v2/titles.gif) 0 0 no-repeat;}
+.clearer {clear:both;}
+acronym, abbr {font-style: normal;text-decoration: none;} 
+acronym[title], abbr[title] {border-bottom: 1px dotted #888;}
+address{margin:0 19px;}
+
+img {text-align:center;background:transparent;border:none;}
+img.left {float:left;margin:0 9px 2px 9px;padding:4px;border:1px solid #ddd;background:#fff;}
+a:hover img.left,
+a:active img.left {border: 1px solid #C12D06;}
+
+/*-- Logo --*/
+#Logo a {width:164px;height:30px;position:absolute;bottom:0;left:0;margin-left:-14px;padding:0;color:#999;text-indent:-9000px;background:transparent url(../images/v2/snowinteractive_single.gif) top left no-repeat;text-decoration:none;border:none;}
+
+/*-- Main navigation --*/
+ul#Nav {position:absolute;top:50px;left:292px;width:89px;margin:0;height:28px;list-style-type:none;overflow:hidden;background:transparent url(../images/v2/nav.gif) no-repeat 0 0;}
+ul#Nav li a {position: absolute;top:0;width:48px;border:none; text-indent:-9000px;text-decoration:none;padding:23px 0 0 0;overflow:hidden;height: 0px !important; height /**/:23px; /* IE5/Win */background: transparent url(../images/v2/nav.gif) no-repeat;}
+body#Work ul#Nav li.work {position:absolute;top:0;left:-10px;width:40px;text-indent:-9000px;text-decoration:none;padding:0;height:23px;background:transparent url(../images/v2/nav.gif) 0 -30px no-repeat;}
+body#Work li.work a 		{ background-position: 0 -30px; width: 40px; left: 0; }
+body#Work li.work a:hover	{ background-position: 0 -30px; }
+body#Work li.blog a 		{ background-position: -51px 0; left: 51px; }
+body#Work li.blog a:hover	{ background-position: -51px 0px; }
+body#Blog li.work a			{ background-position: 0 0; width: 40px; left: 0; }
+body#Blog li.work a:hover	{ background-position: 0 -30px; }
+body#Blog ul#Nav li.blog {position:absolute;top:0;left:41px;width:40px;text-indent:-9000px;text-decoration:none;padding:0;height:23px;background:transparent url(../images/v2/nav.gif) -51px -30px no-repeat;}
+body#Blog li.blog a			{ background-position: -51px -30px; left: 51px; }
+body#Blog li.blog a:hover	{ background-position: -51px -30px; }
+
+/*-- Subnavigation --*/
+body#Work ul#Subnav{position:absolute;top:0;left:10px;width:386px;margin:0;height:19px;list-style-type:none;overflow:hidden;background:transparent url(../images/v2/subnavWork.gif) no-repeat 0 0;}
+body#Work.sve ul#Subnav{background:transparent url(../images/v2/subnavJobb.gif) no-repeat 0 0;}
+body#Work ul#Subnav li a {position:absolute;top:0;width:36px;text-indent:-9000px;text-decoration:none;padding: 19px 0 0 0;overflow: hidden;height:0px !important;height /**/:19px; /* IE5/Win */background: transparent url(../images/v2/subnavWork.gif) no-repeat;}
+body#Work.sve ul#Subnav li a {background: transparent url(../images/v2/subnavJobb.gif) no-repeat;}
+
+body#Work ul#Subnav li.showcase a 			{ background-position: -36px 0; width:66px; left:36px;}
+body#Work ul#Subnav li.showcase a:hover		{ background-position: -36px -19px;}
+body#Work ul#Subnav li.services a 			{ background-position: -102px 0; width:59px; left:102px;}
+body#Work ul#Subnav li.services a:hover		{ background-position: -102px -19px;}
+body#Work ul#Subnav li.contact a			{ background-position: -161px 0; width:54px; left:161px;}
+body#Work ul#Subnav li.contact a:hover		{ background-position: -161px -19px;}
+body#Work ul#Subnav li.clientlogin a		{ background-position: -215px 0; width:79px; left:215px;}
+body#Work ul#Subnav li.clientlogin a:hover	{ background-position: -215px -19px;}
+body#Work ul#Subnav li.sve a				{ background-position: -316px 0; width:24px; left:316px;}
+body#Work ul#Subnav li.sve a:hover			{ background-position: -316px -19px;}
+body#Work.eng ul#Subnav li.eng {position:absolute;top:0;left:335px;width:23px;text-indent:-9000px;text-decoration:none;padding:0;height:19px;background:transparent url(../images/v2/subnavWork.gif) -345px -19px no-repeat;}
+body#Work ul#Subnav li.eng a				{ background-position: -345px -19px; width:23px; left:345px;}
+body#Work ul#Subnav li.eng a:hover			{ background-position: -345px -19px;}
+body#Work.sve ul#Subnav li.showcase a 			{ background-position: -33px 0; width:55px; left:33px;}
+body#Work.sve ul#Subnav li.showcase a:hover		{ background-position: -33px -19px;}
+body#Work.sve ul#Subnav li.services a 			{ background-position: -91px 0; width:56px; left:91px;}
+body#Work.sve ul#Subnav li.services a:hover		{ background-position: -91px -19px;}
+body#Work.sve ul#Subnav li.contact a			{ background-position: -149px 0; width:53px; left:149px;}
+body#Work.sve ul#Subnav li.contact a:hover		{ background-position: -149px -19px;}
+body#Work.sve ul#Subnav li.clientlogin a		{ background-position: -205px 0; width:71px; left:205px;}
+body#Work.sve ul#Subnav li.clientlogin a:hover	{ background-position: -205px -19px;}
+
+body#Work.sve ul#Subnav li.sve {position:absolute;top:0;left:306px;width:24px;overflow:hidden;text-indent:-9000px;text-decoration:none;padding:0;height:19px;background:transparent url(../images/v2/subnavJobb.gif) -316px -19px no-repeat;}
+body#Work.sve ul#Subnav li.eng a				{ background-position: -345px 0; width:23px; left:345px;}
+body#Work.sve ul#Subnav li.eng a:hover			{ background-position: -345px -19px;}
+
+/*-- Subnavigation - blog --*/
+body#Blog ul#Subnav{position:absolute;top:0;left:10px;width:386px;margin:0;height:19px;list-style-type:none;overflow:hidden;background:transparent url(../images/v2/subnavBlog.gif) no-repeat 0 0;}
+body#Blog ul#Subnav li a {position:absolute;top:0;width:36px;text-indent:-9000px;text-decoration:none;padding: 19px 0 0 0;overflow: hidden;height:0px !important;height /**/:19px; /* IE5/Win */background: transparent url(../images/v2/subnavBlog.gif) no-repeat;}
+body#Blog ul#Subnav li.latestentries a 			{ background-position: -32px 0; width:78px; left:32px;}
+body#Blog ul#Subnav li.latestentries a:hover	{ background-position: -32px -19px;}
+body#Blog.front ul#Subnav li.latestentries	{position:absolute;top:0;left:22px;width:78px;overflow:hidden;text-indent:-9000px;text-decoration:none;padding:0;height:19px;background:transparent url(../images/v2/subnavBlog.gif) -32px -19px no-repeat;}
+body#Blog ul#Subnav li.archive a 				{ background-position: -121px 0; width:42px; left:121px;}
+body#Blog ul#Subnav li.archive a:hover			{ background-position: -121px -19px;}
+body#Blog ul#Subnav li.about a					{ background-position: -174px 0; width:41px; left:174px;}
+body#Blog ul#Subnav li.about a:hover			{ background-position: -174px -19px;}
+body#Blog ul#Subnav li.search a					{ background-position: -221px 0; width:47px; left:221px;}
+body#Blog ul#Subnav li.search a:hover			{ background-position: -221px -19px;}
+body#Blog ul#Subnav li.rss a					{ background-position: -326px 0; width:42px; left:326px;}
+body#Blog ul#Subnav li.rss a:hover				{ background-position: -326px -19px;}
+
+/*-- Headings --*/
+h1 {margin:0;padding:0;}
+h2 {font-size:1.8em;text-indent:-9999px;height:20px;width:386px;line-height:20px;margin:50px 0 8px 8px;padding:0;}
+h2#Showcase{background: url(../images/v2/titles.gif) 0 -10px no-repeat;margin:18px 0 8px 9px;}
+h2#Services{background: url(../images/v2/titles.gif) 0 -30px no-repeat;}
+h2#Contact{background: url(../images/v2/titles.gif) 0 -50px no-repeat;}
+h2#Thanks{background: url(../images/v2/titles.gif) 0 -70px no-repeat;}
+
+body#Work.sve h2#Showcase{background: url(../images/v2/titles.gif) 0 -90px no-repeat;margin:18px 0 8px 9px;}
+body#Work.sve h2#Services{background: url(../images/v2/titles.gif) 0 -110px no-repeat;}
+body#Work.sve h2#Contact{background: url(../images/v2/titles.gif) 0 -130px no-repeat;}
+body.tack h2#Thanks{background: url(../images/v2/titles.gif) 0 -150px no-repeat;}
+
+/*-- Footer and beyond --*/
+#Footer {color:#666; background:transparent;width:387px;margin:10px 9px 5px 0;padding-bottom:150px;}
+#Footer a:link {font-weight:bold;color:#777; text-decoration:none; border-bottom:#999 1px dotted;}
+#Footer a:visited {font-weight:bold;color:#777; text-decoration:none;border-bottom:#999 1px dotted;}
+#Footer a:hover {font-weight:bold;color:#C12D06;text-decoration:none;border-bottom:#C12D06 1px solid;}
+#Footer a:active {font-weight:bold;text-decoration:none; border-bottom:#C12D06 1px solid;}
+#Footer p {margin:0 8px 5px 8px;}
+#Footer p.left{float:left; width:200px;}
+#Footer p.right{float:right; width:140px;text-align:right;}
+#Footer span.pipe {color:#bbb;background:transparent;}
+#Footer p.buttonRow {margin:15px 0 15px 9px;}
+#Footer p.buttonRow span {margin-right:15px;}
+#Footer p.buttonRow a:link, #Footer p.buttonRow a:visited,
+#Footer p.buttonRow a:hover, #Footer p.buttonRow a:active {text-decoration:none;border:none;}
+#Letitsnow a {position:relative;margin:10px 0 8px 0;padding:20px 0 0 0;overflow:hidden;display:block;color:#ccc;background:url(../images/v2/titles.gif) 0 -175px no-repeat;text-decoration:none;text-align:center;border:none;height:0px !important;height /**/:20px;/* for ie5.x */}
+#Letitsnow a:link {border:none;}
+#Letitsnow a:visited {border:none;}
+#Letitsnow a:hover {border:none;background-position:0 -195px;color:red;}
+#Letitsnow a:visited {border:none;}
+#Scrolltotop a {position:relative;margin:10px 0 10px 0;padding: 20px 0 0 0;overflow:hidden;display:block;color:#ccc;background:url(../images/v2/titles.gif) 0 -215px no-repeat;text-decoration:none;text-align:center;border:none;height:0px !important;height /**/:20px;/* for ie5.x */}
+#Scrolltotop a:hover {border:none;background-position:0 -235px;color:red;}
+
+/*-- Forms --*/
+form {margin:0;padding:0;}
+form p {margin:10px 0;}
+html fieldset {position:relative; margin:15px 9px 0 8px;padding:10px;border:1px dotted #ccc;background:#f3f3f1;}
+html legend {position:absolute;top:-.8em; left:.4em;color:#869193;}
+label {margin:0;color:#666;background:transparent;font-size:1em;}
+.accesskey {text-decoration: underline;}
+input, textarea, select {border-left: 1px solid #B7B7A4;border-right: 1px solid #fff;border-top: 1px solid #B7B7A4;border-bottom: 1px solid #fff;margin-top: 1px;padding:2px;background:#EBEBE7;font: 1.1em Georgia, "Times New Roman", Times, serif;}
+input:focus, textarea:focus {background:#F4F4DB;}
+input {width:300px;}
+select {width:330px;padding:0;}
+textarea { width:342px; height: 120px;}
+input.submit {border-left: 1px solid #fff;border-right: 1px solid #B7B7A4;border-top: 1px solid #fff;
+border-bottom: 1px solid #B7B7A4;font-size:1em;font-weight:bold;color:#666;width:auto;text-align:center;margin:0;padding:2px;background:#EBEBE7;}

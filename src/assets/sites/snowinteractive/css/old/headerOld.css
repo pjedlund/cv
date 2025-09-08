@@ -1,0 +1,118 @@
+/* -----------------------------------------------------
+  Filename:     header.css
+  Created by:   Johan Edlund | www.snowinteractive.com
+  Purpose:		header, including nav, controlbar(search)
+				and logo styles.
+  Updated:		Sept 9th, 2005
+------------------------------------------------------ */
+#Header{
+	background:#fff url(../images/txp/bgStretch.gif) repeat-x;
+	height:113px;
+	position:relative;
+	}
+	
+/*-- Navigation --*/
+#Navigation {
+	position:absolute;
+	bottom:5px;
+	left:175px; 
+	color:#999; 
+	background:transparent;
+	font-size:0.94em;
+	text-transform:lowercase;
+	height: 20px;
+	}
+	
+#Nav {
+	position:absolute;
+	bottom:5px;
+	left:175px; 
+	margin: 0;
+	padding: 0;
+	height: 20px;
+	list-style: none;
+	display: inline;
+	overflow: hidden;
+	}
+
+#Nav li {
+	margin: 0; 
+	padding: 0;
+	list-style: none;
+	display: inline;
+	}
+
+#Nav a {
+	float: left;
+	padding: 20px 0 0 0;
+	overflow: hidden;
+	height: 0px !important; 
+	height /**/:20px; /* for IE5/Win only */
+	width: 40px;
+	background:url(../images/txp/nav/about.gif) top left no-repeat;
+	}
+	
+#Nav a:hover {
+	background-position: 0 -20px;
+	}
+
+#Nav a:active {
+	background-position: 0 -40px;
+	}
+
+
+
+
+/*-- Logo --*/
+
+#Logo a {
+	width:163px;
+	position:absolute;
+	bottom:5px;
+	left:0;
+	margin-left:-19px;
+	padding: 30px 0 0 0;
+	overflow: hidden;
+	display:block;
+	color:#999;
+	background:url(../images/logos/siflakeDouble.gif) top left no-repeat;text-decoration: none; 
+	height: 0px !important;
+	height /**/:30px;/* for ie5.x */
+	}
+#Logo a:hover {
+	background-position: 0px -30px; 
+	color:#45595B;
+	}
+	
+/* for the front page */
+#Front #Logo a {
+	background-position: 0px -30px; 
+	color:#45595B;
+	}
+	
+/*-- Control bar --*/
+#Controlbar {
+	width: 36%;
+	position:absolute;
+	top:0;
+	right:0;
+	border: 1px solid #f4f2f0;
+	border-top: 6px solid #A3ADAE;
+	color:#A3ADAE;
+	background:#FBFAF9;
+}
+
+#Controlbar form {
+}
+
+#Controlbar input {
+	padding:1px;
+	width:99%;
+	border:1px solid #f4f2f0;
+	color:#A3ADAE;
+	background:#fff;
+}
+
+#Controlbar p {
+	margin: 6px;
+}

@@ -1,0 +1,190 @@
+/*-------- Snow v2  --------*/
+/*-- Layout --*/
+html {margin:0;padding:0;color:#555;background:transparent  url(../i/v2/dottile.gif) repeat-y;font-size:100%;}
+body {margin:0;padding:0;font:normal 76%/160% Georgia, "Times New Roman", Times, serif;color:#555;background:transparent url(../i/v2/navbgWork.gif) 59px 0 no-repeat;}
+body#Blog {background:transparent url(../i/v2/navbgBlog.gif) 59px 0 no-repeat;}
+/*content box */
+.cb {margin:0 10px 0 90px;padding:0;text-align:left;width:387px;color:#333;background:transparent;font-size:11px;}
+.cbHolderOdd {color:#ccc;background:transparent;margin:0;padding:0 0 10px 0;border-top:2px solid #fff;}
+.cbHolderEven {color:#ccc;background:#F7F7F3;margin:0;padding:0 0 10px 0;border-top:2px solid #fff;}
+#Header {margin:0;padding:0;background:transparent;height:70px;position:relative;}
+
+/* Neutralize styling: */
+fieldset,h1,h2,h3,h4,h5,h6,p,pre,blockquote,ul,li,ol,dl,address{margin:0 9px;padding:0;}
+
+/*general links*/
+a:link {font-weight:bold;color:#4F5B60; text-decoration:none; border-bottom:#999 1px dotted;}
+a:visited {font-weight:bold;color:#4F5B60; text-decoration:none;border-bottom:#999 1px dotted;}
+a:hover {font-weight:bold;color:#C12D06;text-decoration:none;border-bottom:#C12D06 1px solid;}
+a:active {font-weight:bold;text-decoration:none; border-bottom:#C12D06 1px solid;}
+
+.entry {margin-bottom:20px;}
+.entry p {margin-bottom:10px;}
+.entryimage {color:#999; background:url(../i/v2/imagebg.gif) no-repeat; height:150px; width:387px;padding-left:11px;}
+a.thickbox:link, a.thickbox:visited, a.thickbox:hover, a.thickbox:active {margin:0;padding:0;border:none;}
+.entryimage img {display:inline;margin:11px 0 0 0;padding:0;border:none;background:transparent;}
+p.bullet {text-indent:16px;background: url(../i/v2/snowbullet.gif) 0 2px no-repeat;}
+
+/*-- Various --*/
+.off-left {position:absolute;left:-999px;width:999px;}
+hr, .hidden {display:none;}
+.hr {clear:both;text-align:center;height:9px;width:368px;margin:10px auto;line-height:9px;font-size:9px;color:#666;background: url(../i/v2/titles.gif) 0 0 no-repeat;}
+.clearer {clear:both;}
+acronym, abbr {font-style: normal;text-decoration: none;} 
+acronym[title], abbr[title] {border-bottom: 1px dotted #888;}
+address{margin:0 19px;}
+
+img {text-align:center;background:transparent;border:none;}
+img.left {float:left;margin:0 9px 2px 9px;padding:4px;border:1px solid #ddd;background:#fff;}
+a:hover img.left,
+a:active img.left {border: 1px solid #C12D06;}
+
+/*-- Logo --*/
+#Logo a {width:164px;height:30px;position:absolute;bottom:0;left:0;margin-left:-14px;padding:0;color:#999;text-indent:-9000px;background:transparent url(../i/v2/snowinteractive_single.gif) top left no-repeat;text-decoration:none;border:none;}
+
+/*-- Main navigation --*/
+ul#Nav {position:absolute;top:49px;left:294px;width:89px;margin:0;height:28px;list-style-type:none;overflow:hidden;background:transparent url(../i/v2/nav.gif) no-repeat 0 0;}
+ul#Nav li a {position: absolute;top:0;width:48px;border:none; text-indent:-9000px;text-decoration:none;padding:23px 0 0 0;overflow:hidden;height: 0px !important; height /**/:23px; /* IE5/Win */background: transparent url(../i/v2/nav.gif) no-repeat;}
+body#Work ul#Nav li.work {position:absolute;top:0;left:-10px;width:40px;text-indent:-9000px;text-decoration:none;padding:0;height:23px;background:transparent url(../i/v2/nav.gif) 0 -30px no-repeat;}
+body#Work li.work a 		{ background-position: 0 -30px; width: 40px; left: 0; }
+body#Work li.work a:hover	{ background-position: 0 -30px; }
+body#Work li.blog a 		{ background-position: -51px 0; left: 51px; }
+body#Work li.blog a:hover	{ background-position: -51px 0px; }
+body#Blog li.work a			{ background-position: 0 0; width: 40px; left: 0; }
+body#Blog li.work a:hover	{ background-position: 0 -30px; }
+body#Blog ul#Nav li.blog {position:absolute;top:0;left:41px;width:40px;text-indent:-9000px;text-decoration:none;padding:0;height:23px;background:transparent url(../i/v2/nav.gif) -51px -30px no-repeat;}
+body#Blog li.blog a			{ background-position: -51px -30px; left: 51px; }
+body#Blog li.blog a:hover	{ background-position: -51px -30px; }
+
+/*-- Subnavigation --*/
+/***** WORK *****/
+body#Work ul#Subnav{position:absolute;top:0;left:10px;width:386px;margin:0;height:19px;list-style-type:none;overflow:hidden;background:transparent url(../i/v2/subnavWork.gif) no-repeat 0 0;}
+body#Work.sve ul#Subnav{background:transparent url(../i/v2/subnavJobb.gif) no-repeat 0 0;}
+body#Work ul#Subnav li a {position:absolute;top:0;width:36px;text-indent:-9000px;text-decoration:none;padding: 19px 0 0 0;overflow: hidden;height:0px !important;height /**/:19px; /* IE5/Win */background: transparent url(../i/v2/subnavWork.gif) no-repeat;}
+body#Work.sve ul#Subnav li a {background: transparent url(../i/v2/subnavJobb.gif) no-repeat;}
+
+body#Work ul#Subnav li.showcase a 			{ background-position: -36px 0; width:66px; left:36px;}
+body#Work ul#Subnav li.showcase a:hover		{ background-position: -36px -19px;}
+body#Work ul#Subnav li.services a 			{ background-position: -102px 0; width:59px; left:102px;}
+body#Work ul#Subnav li.services a:hover		{ background-position: -102px -19px;}
+body#Work ul#Subnav li.contact a			{ background-position: -161px 0; width:54px; left:161px;}
+body#Work ul#Subnav li.contact a:hover		{ background-position: -161px -19px;}
+body#Work ul#Subnav li.clientlogin a		{ background-position: -215px 0; width:79px; left:215px;}
+body#Work ul#Subnav li.clientlogin a:hover	{ background-position: -215px -19px;}
+body#Work ul#Subnav li.sve a				{ background-position: -316px 0; width:24px; left:316px;}
+body#Work ul#Subnav li.sve a:hover			{ background-position: -316px -19px;}
+body#Work.eng ul#Subnav li.eng {position:absolute;top:0;left:335px;width:23px;text-indent:-9000px;text-decoration:none;padding:0;height:19px;background:transparent url(../i/v2/subnavWork.gif) -345px -19px no-repeat;}
+body#Work ul#Subnav li.eng a				{ background-position: -345px -19px; width:23px; left:345px;}
+body#Work ul#Subnav li.eng a:hover			{ background-position: -345px -19px;}
+body#Work.sve ul#Subnav li.showcase a 			{ background-position: -33px 0; width:55px; left:33px;}
+body#Work.sve ul#Subnav li.showcase a:hover		{ background-position: -33px -19px;}
+body#Work.sve ul#Subnav li.services a 			{ background-position: -91px 0; width:56px; left:91px;}
+body#Work.sve ul#Subnav li.services a:hover		{ background-position: -91px -19px;}
+body#Work.sve ul#Subnav li.contact a			{ background-position: -149px 0; width:53px; left:149px;}
+body#Work.sve ul#Subnav li.contact a:hover		{ background-position: -149px -19px;}
+body#Work.sve ul#Subnav li.clientlogin a		{ background-position: -205px 0; width:71px; left:205px;}
+body#Work.sve ul#Subnav li.clientlogin a:hover	{ background-position: -205px -19px;}
+body#Work.sve ul#Subnav li.sve {position:absolute;top:0;left:306px;width:24px;overflow:hidden;text-indent:-9000px;text-decoration:none;padding:0;height:19px;background:transparent url(../i/v2/subnavJobb.gif) -316px -19px no-repeat;}
+body#Work.sve ul#Subnav li.eng a				{ background-position: -345px 0; width:23px; left:345px;}
+body#Work.sve ul#Subnav li.eng a:hover			{ background-position: -345px -19px;}
+
+/*-- Subnavigation --*/
+/***** BLOG *****/
+body#Blog ul#Subnav{position:absolute;top:0;left:10px;width:386px;margin:0;height:19px;list-style-type:none;overflow:hidden;background:transparent url(../i/v2/subnavBlog.gif) no-repeat 0 0;}
+body#Blog ul#Subnav li a {position:absolute;top:0;width:36px;text-indent:-9000px;text-decoration:none;padding: 19px 0 0 0;overflow: hidden;height:0px !important;height /**/:19px; /* IE5/Win */background: transparent url(../i/v2/subnavBlog.gif) no-repeat;}
+
+body#Blog ul#Subnav li.latest a 			{ background-position: -33px 0; width:40px; left:33px;}
+body#Blog ul#Subnav li.latest a:hover,
+body#Blog.latest ul#Subnav li.latest a		{ background-position: -33px -19px;}
+body#Blog ul#Subnav li.archive a 			{ background-position: -78px 0; width:45px; left:78px;}
+body#Blog ul#Subnav li.archive a:hover,
+body#Blog.archive ul#Subnav li.archive a	{ background-position: -78px -19px;}
+body#Blog ul#Subnav li.about a				{ background-position: -128px 0; width:36px; left:128px;}
+body#Blog ul#Subnav li.about a:hover,
+body#Blog.about ul#Subnav li.about a		{ background-position: -128px -19px;}
+body#Blog ul#Subnav li.links a				{ background-position: -169px 0; width:33px; left:169px;}
+body#Blog ul#Subnav li.links a:hover,
+body#Blog.links ul#Subnav li.links a		{ background-position: -169px -19px;}
+body#Blog ul#Subnav li.search a				{ background-position: -207px 0; width:42px; left:207px;}
+body#Blog ul#Subnav li.search a:hover,
+body#Blog.search ul#Subnav li.search a		{ background-position: -207px -19px;}
+body#Blog ul#Subnav li.rss a				{ background-position: -330px 0; width:38px; left:330px;}
+body#Blog ul#Subnav li.rss a:hover			{ background-position: -330px -19px;}
+
+body#Blog.eng ul#Subnav li.eng {position:absolute;top:0;left:335px;width:23px;text-indent:-9000px;text-decoration:none;padding:0;height:19px;background:transparent url(../i/v2/subnavWork.gif) -345px -19px no-repeat;}
+
+/*-- Headings --*/
+/*-- Work --*/
+h1 {margin:0;padding:0;}
+h2 {font-size:1.8em;text-indent:-9999px;height:20px;width:386px;line-height:20px;margin:50px 0 8px 8px;padding:0;background: url(../i/v2/titles.gif) 0 -10px no-repeat;margin:18px 0 8px 9px;}
+h2#Showcase{background-position:0 -10px;}
+h2#Services{background-position:0 -30px;}
+h2#Contact{background-position:0 -50px;}
+h2#Thanks{background-position:0 -70px;}
+body#Work.sve h2#Showcase{background-position:0 -90px;}
+body#Work.sve h2#Services{background-position:0 -110px;}
+body#Work.sve h2#Contact{background-position:0 -130px;}
+body.tack h2#Thanks{background-position:0 -150px;}
+
+/*-- Blog --*/
+body#Blog h2{font-size:1.8em;text-indent:-9999px;height:20px;width:386px;line-height:20px;margin:50px 0 8px 8px;padding:0;background: url(../i/v2/titles.gif) 0 -10px no-repeat;margin:18px 0 8px 9px;}
+body#Blog h2#LatestEntries{background-position:0 -150px;}
+body#Blog h2#Links{background-position:0 -270px;}
+
+/*-- Forms --*/
+form {margin:0;padding:0;}
+form p {margin:10px 0;}
+html fieldset {position:relative; margin:15px 9px 0 8px;padding:10px;border:1px dotted #ccc;background:#f3f3f1;}
+html legend {position:absolute;top:-.8em; left:.4em;color:#869193;}
+label {margin:0;color:#666;background:transparent;font-size:1em;}
+.accesskey {text-decoration: underline;}
+input, textarea, select {border-left: 1px solid #B7B7A4;border-right: 1px solid #fff;border-top: 1px solid #B7B7A4;border-bottom: 1px solid #fff;margin-top: 1px;padding:2px;background:#EBEBE7;font: 1.1em Georgia, "Times New Roman", Times, serif;}
+input:focus, textarea:focus {background:#F4F4DB;}
+input {width:300px;}
+select {width:330px;padding:0;}
+textarea {width:342px; height:120px;}
+input.submit {border-left: 1px solid #fff;border-right: 1px solid #B7B7A4;border-top: 1px solid #fff;
+border-bottom: 1px solid #B7B7A4;font-size:1em;font-weight:bold;color:#666;width:auto;text-align:center;margin:0;padding:2px;background:#EBEBE7;}
+
+/****** Tables  ******/
+table {border-collapse:collapse;width:240px;padding:2px;border:3px solid #3C0205;float:right;margin:1em 0 3em 0;}
+col {border-right: 1px solid #3C0205;}
+th {font-weight: normal;text-align:left;}
+th, td {padding: 0.2em 1em;}
+.odd {background-color:#580307;}
+tr:hover {background-color:#85AB53;color:#fff;}
+thead tr:hover {background-color:transparent;color:inherit;}
+
+/* definition lists */
+dl{margin:0;padding:0 0 0 10px;}
+dl dt a {margin:0;padding:0 2px 0px 16px;background: url(../i/v2/eicon.gif) no-repeat 0 3px;}
+dl dt a:link, dl dt a:visited {text-decoration:none;border:none;}
+dl dt a:hover {background-position:0 -16px;border:none;}
+dl dd {color:#575757; background:transparent; margin:0 0 4px 16px;padding:0;}
+
+
+/*-- Footer and beyond --*/
+body#Work #Footer {width:448px;color:#ccc;background:#6D7753;margin:50px 0 0 59px;padding:20px 0 10px 0;border-top:2px solid #fff;}
+body#Blog #Footer {width:428px;color:#ccc;background:#6D7753;margin:50px 0 0 59px;padding:20px 0 10px 0;border-top:2px solid #fff;}
+#FC {margin:0;padding-left:30px;text-align:left;width:387px;color:#ccc;background:transparent;}
+#Footer a:link {font-weight:bold;color:#ccc; text-decoration:none; border-bottom:#bbb 1px dotted;}
+#Footer a:visited {font-weight:bold;color:#ccc; text-decoration:none;border-bottom:#bbb 1px dotted;}
+#Footer a:hover {font-weight:bold;color:#fff;text-decoration:none;border-bottom:#ccc 1px solid;}
+#Footer a:active {font-weight:bold;text-decoration:none; border-bottom:#ccc 1px solid;}
+#Footer .hr {clear:both;text-align:center;height:9px;width:368px;margin:10px auto;line-height:9px;font-size:9px;color:#666;background: url(../i/v2/titles.gif) 0 -260px no-repeat;}
+#Footer p {margin:0 8px 5px 8px;}
+#Footer p.left{float:left; width:200px;}
+#Footer p.right{float:right; width:140px;text-align:right;}
+#Footer p.center{text-align:center;}
+#Footer span.pipe {color:#9C9C72;background:transparent;}
+#Footer p.buttonRow {margin:15px 0 15px 9px;}
+#Footer p.buttonRow span {margin-right:15px;}
+#Footer p.buttonRow a:link, #Footer p.buttonRow a:visited,
+#Footer p.buttonRow a:hover, #Footer p.buttonRow a:active {text-decoration:none;border:none;}
+#Letitsnow a {position:relative;margin:10px 0 8px 0;padding:20px 0 0 0;overflow:hidden;display:block;color:#ccc;background:url(../i/v2/titles.gif) 0 -175px no-repeat;text-decoration:none;text-align:center;border:none;height:0px !important;height /**/:20px;/* for ie5.x */}
+#Letitsnow a:link {border:none;}
+#Letitsnow a:visited {border:none;}
+#Letitsnow a:hover {border:none;background-position:0 -195px;color:red;}
+#Letitsnow a:visited {border:none;}
+#Scrolltotop a:link {position:relative;margin:150px 0 10px 0;padding: 20px 0 0 0;overflow:hidden;display:block;color:#ccc;background:url(../i/v2/titles.gif) 0 -215px no-repeat;border:none;text-decoration:none;text-align:center;border:none;height:0px !important;height /**/:20px;/* for ie5.x */}
+#Scrolltotop a:hover {border:none;background-position:0 -235px;color:red;}

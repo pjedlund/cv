@@ -1,0 +1,43 @@
+/* -----------------------------------------------------
+  Filename:		footer.css
+  Created by:	Johan Edlund | www.snowinteractive.com
+  Purpose:		footer
+  Updated:		Sept 16th, 2005
+------------------------------------------------------ */
+
+#Footer p {
+	font-size:0.8em;
+	color:#efefef;
+	margin:0;
+	padding:0;
+	background:transparent;
+	text-decoration:none;
+}
+
+#Footer a:link {
+	font-size:0.8em;
+	color:#aaa;
+	background:transparent;
+	text-decoration:none;
+}
+
+#Footer a:active {
+	font-size:0.8em;
+	color:#aaa;
+	background:transparent;
+	text-decoration:none;
+	}
+	
+#Footer a:visited {
+	font-size:0.8em;
+	color:#aaa;
+	background:transparent;
+	text-decoration:none;
+}
+
+#Footer a:hover {
+	font-size:0.8em;
+	color:#fff;
+	background:transparent;
+}
+

@@ -1,0 +1,32 @@
+/* -----------------------------------------------------
+  Filename:     basic.css
+  Created by:   Johan Edlund | edlunddesign.com
+  Revised:		Aug 21st 2005 -- added footer
+------------------------------------------------------ */
+
+body {margin:0px;padding:0;text-align:center;color:#444;background:#cfcbc1;font:small/120% verdana, helvetica, sans-serif;}
+#CB {width:45em;margin:0px auto;padding:30px;text-align:left;color:#333;background:#FFF;}
+.logo {margin-left:-23px;}
+
+ul,dl {margin-top:0;}
+img {border:none;background:transparent;}
+.hidden {display: none;}
+.pipe{color:#ccc;background:transparent;}
+.hr{margin:20px 0 5px 0;padding:0;width:auto;height:5px;color:#666;background:#f9f8f6;border-bottom:#efede6 dashed 1px}
+
+h1,h2,h3{font-size:1em;margin:20px 0 5px 0;padding:0;color:#444;background:transparent;}
+h2 span, h4 span {color:#999;background:transparent;}
+h4,h5,h6{font-size:1em;margin:15px 0 5px 0;padding:0;color:#666;background:transparent;}
+
+a:link {font-weight:bold;color:#0093c1; text-decoration:none;}
+a:visited {font-weight:bold;color:#0093c1; text-decoration:none;}
+a:active {font-weight:bold;text-decoration:none;}
+a:hover {font-weight:bold;color:#00a8db;text-decoration:none;}
+
+p{margin:5px 0;padding:0;}
+
+#Footer {width:45em;margin:0px auto;padding:5px 30px;color:#aaa;background:#f9f8f6;border-top:#cfcbc1 1px solid;}
+#Footer a:link {color:#aaa;background:transparent;text-decoration:none;}
+#Footer a:active {color:#aaa;background:transparent;text-decoration:none;}
+#Footer a:visited {color:#aaa;background:transparent;text-decoration:none;}
+#Footer a:hover {color:#999;background:transparent;}

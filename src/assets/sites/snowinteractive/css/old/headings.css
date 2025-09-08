@@ -1,0 +1,30 @@
+/* -----------------------------------------------------
+  Filename:		headings.css
+  Created by:	Johan Edlund | www.snowinteractive.com
+  Purpose:		h styles
+  Updated:		Sept 6th, 2005
+------------------------------------------------------ */
+
+/*-- Headings --*/
+h1 {margin:0;padding:0}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #595b45;
+	font-size: 1.8em;
+	text-transform:uppercase;
+	clear:both;
+	}
+
+h2 a {
+	border: none;
+	color: #000;
+}
+h2 a:hover {
+	text-decoration: underline;
+}
+
+h3 {
+}
+
+h5 {
+}

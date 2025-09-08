@@ -1,0 +1,85 @@
+/* --------------------------------------------------------
+  Filename:     onepage.css
+  Created by:   Johan Edlund | www.snowinteractive.com
+---------------------------------------------------------- */
+/*-- Layout --*/
+html {margin:0;padding:0;color:#555;background:#F7F7F5 url(../images/onepage/bgF7F7F5.gif) repeat;font-size:100%;}
+body {margin:0;padding:0;text-align:center;font:normal 76%/160% Georgia, sans-serif;color:#555;background:#F7F7F5 url(../images/onepage/bgtile.gif) repeat-x;}
+#CB {margin:0 auto;padding:0;text-align:left;width:387px;color:#333;background:transparent;}
+#Header {margin:0;padding:0;background:transparent;height:70px;position:relative;}
+#Footer {}
+
+.entry {margin-bottom:30px;}
+.entryimage {color:#999; background:url(../images/onepage/imagebg.gif) no-repeat; height:150px; width:387px;}
+.entryimage img {margin:11px 0 0 11px;padding:0;}
+
+/* Neutralize styling: */
+form,fieldset,input,h1,h2,h3,h4,h5,h6,p,pre,blockquote,ul,li,ol,dl,address{margin:0 9px 0 10px;padding:0;}
+
+/*general links*/
+a:link {font-weight:bold;color:#445c66; text-decoration:none;}
+a:visited {font-weight:bold;color:#445c55; text-decoration:none;}
+a:active {font-weight:bold;text-decoration:none;}
+a:hover {font-weight:bold;color:#9F9A9A;text-decoration:underline;}
+
+/*-- Various --*/
+.off-left {position:absolute;left:-999px;width:999px;}
+hr, .hidden {display:none;}
+acronym, abbr {font-style: normal;text-decoration: none;} 
+acronym[title], abbr[title] {border-bottom: 1px dotted #888;}
+
+/*-- Logo --*/
+#Logo a {width:164px;position:absolute;bottom:0;left:0;margin-left:-14px;padding: 30px 0 0 0;overflow: hidden;display:block;color:#999;background:transparent url(../images/onepage/snowinteractive.gif) top left no-repeat;text-decoration: none; height: 0px !important;height /**/:30px;/* for ie5.x */}
+#Logo a:hover {background-position: 0px -30px; color:#45595B;}
+
+/*-- Main navigation --*/
+ul#Nav {position:absolute;top:50px;left:291px;width:89px;margin:0;height:28px;list-style-type:none;overflow:hidden;background:transparent url(../images/onepage/nav.gif) no-repeat 0 0;}
+ul#Nav li a {position: absolute;top:0;width:48px;text-indent: -9000px;text-decoration: none;padding: 23px 0 0 0;overflow: hidden;height: 0px !important; height /**/:23px; /* IE5/Win */background: transparent url(../images/onepage/nav.gif) no-repeat;}
+body#Work li.work a 		{ background-position: 0 -30px; width: 40px; left: 0; }
+body#Work li.work a:hover	{ background-position: 0 -30px; }
+body#Work li.blog a 		{ background-position: -51px 0; left: 51px; }
+body#Work li.blog a:hover	{ background-position: -51px -30px; }
+body#Blog li.work a			{ background-position: 0 0; width: 40px; left: 0; }
+body#Blog li.work a:hover	{ background-position: 0 -30px; }
+body#Blog li.blog a			{ background-position: -51px -30px; left: 51px; }
+body#Blog li.blog a:hover	{ background-position: -51px -30px; }
+
+/*-- Subnavigation - work --*/
+body#Work ul#Subnav{position:absolute;top:0;left:10px;width:386px;margin:0;height:19px;list-style-type:none;overflow:hidden;background:transparent url(../images/onepage/subnavWork.gif) no-repeat 0 0;}
+body#Work ul#Subnav li a {position:absolute;top:0;width:36px;text-indent: -9000px;text-decoration:none;padding: 19px 0 0 0;overflow: hidden; height: 0px !important; height /**/:19px; /* IE5/Win */background: transparent url(../images/onepage/subnavWork.gif) no-repeat;}
+body#Work ul#Subnav li.showcase a 			{ background-position: -36px 0; width:66px; left:36px; }
+body#Work ul#Subnav li.showcase a:hover		{ background-position: -36px -19px; }
+body#Work ul#Subnav li.services a 			{ background-position: -102px 0; width:59px; left:102px; }
+body#Work ul#Subnav li.services a:hover		{ background-position: -102px -19px; }
+body#Work ul#Subnav li.contact a			{ background-position: -161px 0; width:54px; left:161px; }
+body#Work ul#Subnav li.contact a:hover		{ background-position: -161px -19px; }
+body#Work ul#Subnav li.clientlogin a		{ background-position: -215px 0; width:79px; left:215px; }
+body#Work ul#Subnav li.clientlogin a:hover	{ background-position: -215px -19px; }
+body#Work ul#Subnav li.sve a				{ background-position: -316px 0; width:24px; left:316px; }
+body#Work ul#Subnav li.sve a:hover			{ background-position: -316px -19px; }
+body#Work ul#Subnav li.eng a				{ background-position: -345px -19px; width:23px; left:345px; }
+body#Work ul#Subnav li.eng a:hover			{ background-position: -345px -19px; }
+
+	
+/*-- Headings --*/
+h1 {margin:0;padding:0;}
+h2, h3, h4, h5, h6 {
+	color: #595b45;
+	font-size: 1.1em;
+	text-transform:uppercase;
+	clear:both;
+	}
+h2 {padding-top:30px;}
+h2 a {
+	border: none;
+	color: #000;
+}
+h2 a:hover {
+	text-decoration: underline;
+}
+
+h3 {
+}
+
+h5 {
+}

@@ -1,0 +1,40 @@
+/* -----------------------------------------------------
+  Filename:		images.css
+  Created by:	Johan Edlund | www.snowinteractive.com
+  Purpose:		
+  Updated:		Sept 17th, 2005
+------------------------------------------------------ */
+
+img {border:none;background:transparent;}
+
+/* Big image/media dropshadow */
+.bshade {
+	float:left;
+	background: url(../images/txp/s.gif) no-repeat bottom right;
+	margin: 10px 0 0 5px;
+	width: 100%;
+}
+.bshade img {
+	display:block;
+	position:relative;
+	background-color:#fff;
+	border:1px solid #f0eeec;
+	margin: -11px 11px 11px -11px;
+	padding: 7px;
+}
+
+/* Sidebar images */
+#Sidebar img.left, #Sidebar img.right{
+	float:left;
+	color:black;
+	background:#fff;
+	border:1px solid #f4f2f0;
+	padding: 2%;
+}
+#Sidebar img.right {
+	float:right;  
+}
+
+#Sidebar a:hover img, #Sidebar a:hover img.rignt  {
+	border:1px solid #D0D5D6;
+}

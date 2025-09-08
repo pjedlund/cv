@@ -1,0 +1,64 @@
+/*******************************
+File: photogallery.css
+Created by: Johan Edlund
+********************************/
+
+/****** General ******/
+body 		{text-align: center; font-family: Lucida Grande, Verdana, Arial, sans-serf; font-size: 56%; font-weight: normal; color: #444; background-color: #1A1A1A;}
+* 			{padding: 0; margin: 0; font-size: 1.1em;/* i.e same as 11px*/}
+
+/****** Various ******/
+.hidden 	{display: none;}
+
+/****** Default Links ******/
+a:link		{color: #555;}
+a:visited	{color: #555;}
+a:hover		{color: #777;}
+a:active	{color: #777;}
+
+/****** Header ******/
+h1,h2		{font-size: 1.4em;color: #FF9933;}
+p {font-size: 1em;color: #555;}
+
+/****** Layout ******/
+#container        
+	{
+	color: #333;
+	background-color: transparent;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	visibility: visible;
+	display: block;
+	}
+
+#content    
+	{
+	background-color: transparent;
+	margin-left: -275px;
+	position: absolute;
+	top: -210px;/* add 10px for the footer */
+	left: 50%;
+	width: 550px;
+	height: 400px;
+	visibility: visible;
+	}
+	
+#footer 
+	{
+	padding-top:2px;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 20px;
+	visibility: visible;
+	display: block;
+	background-color: #000;
+	border-top:1px solid #333;
+	}

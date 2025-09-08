@@ -1,0 +1,62 @@
+/* -----------------------------------------------------
+  Filename:     snow2.css
+  Created by:   Johan Edlund | www.snowinteractive.com
+  Purpose:		CSS file for www.snowinteractive.com
+  Updated:		October 23rd, 2005: 
+  				* serving application/xhtml+xml 
+------------------------------------------------------ */
+html,body {margin:0;padding:0;font-size:100%;color:#555;background:#f9f9f9 url(../images/graphics/img_38mod.gif) repeat}
+body {margin:0;padding:0;text-align:center;color:#555;font:normal 62.5% Georgia, Helvetica, sans-serif;}
+#CB {position:relative;width:640px;margin:0 auto;padding:0;text-align:left; border-top:3px solid #fff;}
+
+/*-- general --*/
+img {border:none;background:transparent;}
+acronym, abbr {font-style: normal;text-decoration: none; } 
+acronym[title], abbr[title] {border-bottom: 1px dotted #ccc}/* Hide additional decoration from IE*/ 
+.off-left {position:absolute;left:-999px;width:999px;}
+.clearer {clear:both;}
+hr, .hidden {display:none;}
+.iHateCollapsingMargins {position:absolute;top:1150px;left:0;margin:0;padding:0;height:3px;width:640px;color:#fff;background:#fff;}
+
+/*-- headers --*/
+h1 {font-size:1.5em;color:#CCC;background:transparent;margin:0;padding:0;}
+h4 {font-size:1.3em;color:#666;background:transparent;margin:0;padding:0;}
+
+p {
+	margin:0;
+	padding:10px;
+	font-size:1.3em;
+}
+
+/*-- links --*/
+a:link {font-weight:bold;color:#445c66; text-decoration:none;}
+a:visited {font-weight:bold;color:#445c55; text-decoration:none;}
+a:active {font-weight:bold;text-decoration:none;}
+a:hover {font-weight:bold;color:#9F9A9A;text-decoration:underline;}
+
+/*-- header --*/
+#Header{margin:0;padding:10px;overflow:hidden;position:absolute;top:20px;left:0;height:180px;width:620px;color:#ccc;background:#efefef url(../images/graphics/DiagonalTileEF.gif) repeat; border:1px solid #ddd;}
+#HeaderInner{margin:0;padding:0;overflow:hidden;height:180px;width:620px;color:#666;background:#fff url(../images/graphics/headerGraphic.jpg) no-repeat top right;}
+/*logo*/
+#Logo a {position:absolute;top:30px;left:40px;text-indent:-9999px;width:163px;padding:30px 0 0 0;margin:0;overflow: hidden;display:block;color:#999;background:url(../images/logos/siflakeDouble.gif) top left no-repeat;text-decoration: none; height: 0px !important;
+height /**/:30px;/* for ie5.x */}
+#Logo a:hover {background-position: 0px -30px; text-decoration: none; color:#666;}
+
+/*-- pitch --*/
+#Pitch{margin:0;padding:10px;overflow:hidden;position:absolute;top:230px;left:0;height:140px;width:620px;color:#efefef;background:#efefef url(../images/graphics/DiagonalTileEF.gif) repeat;;border:border:1px solid #ddd;}
+#Pitch p {margin:0;padding:10px;overflow:hidden;height:140px;width:620px;color:#efefef;background:#CC3399;border:border:1px solid #ddd;}
+
+/*-- recent --*/
+#Recent{margin:0;padding:10px;overflow:hidden;position:absolute;top:400px;left:0;height:140px;width:455px;color:#666;background:#efefef url(../images/graphics/DiagonalTileEF.gif) repeat;border:1px solid #ddd;}
+#RecentThumb{margin:0;padding:10px;overflow:hidden;position:absolute;top:400px;left:480px;height:140px;width:140px;color:#666;background:#efefef url(../images/graphics/DiagonalTileEF.gif) repeat;border:1px solid #ddd;}
+
+/*-- feature1 --*/
+#Feature1{margin:0;padding:10px;overflow:hidden;position:absolute;top:570px;left:0;height:140px;width:455px;color:#efefef;background:#fff;border:1px solid #ddd;}
+#Feature1Thumb{margin:0;padding:10px;overflow:hidden;position:absolute;top:570px;left:480px;height:140px;width:140px;color:#666;background:#efefef url(../images/graphics/DiagonalTileEF.gif) repeat;border:1px solid #ddd;}
+
+/*-- feature2 --*/
+#Feature2{margin:0;padding:10px;overflow:hidden;position:absolute;top:740px;left:0;height:140px;width:455px;color:#666;background:#efefef url(../images/graphics/DiagonalTileEF.gif) repeat;border:1px solid #ddd;}
+#Feature2Thumb{margin:0;padding:10px;overflow:hidden;position:absolute;top:740px;left:480px;height:140px;width:140px;color:#efefef;background:#efefef url(../images/graphics/DiagonalTileEF.gif) repeat;border:1px solid #ddd;}
+
+/*-- footer --*/
+#Footer{margin:0;padding:10px;overflow:hidden;position:absolute;top:910px;left:0;height:180px;width:620px;color:#ccc;background:#efefef url(../images/graphics/DiagonalTileEF.gif) repeat;border:border:1px solid #ddd;}

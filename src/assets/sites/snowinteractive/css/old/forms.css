@@ -1,0 +1,61 @@
+/* -----------------------------------------------------
+  Filename:     forms.css
+  Created by:   Johan Edlund | www.snowinteractive.com
+  Purpose:		form styles
+  Updated:		Sept 7th, 2005
+------------------------------------------------------ */
+
+form {
+}
+
+form label {
+	cursor: pointer;
+}
+fieldset {
+	padding: 10px 20px;
+	border: none;
+}
+
+/* Form field text-scaling
+input, select, textarea {
+	font-size: 100%;
+} */
+
+input{
+	width: 100%;
+}
+
+.formrow{
+}
+
+.formrow span {
+	color:#888;background:transparent;
+}
+.label {
+	color:#888;
+	background:transparent;
+}
+.accesskey {
+	text-decoration: underline;
+}
+.textbox {
+	padding:1px;
+	width:100%;
+	border:1px solid #ccc;
+}
+.textarea {
+	padding:1px;
+	width:360px;
+	border:1px solid #CCC;
+	background:#fff;
+}
+.submit {
+	width:80px;
+	text-align:center;
+	color:#286bba;
+	padding:3px 2px 2px 2px;
+	font:11px/11px Georgia,Verdana,sans-serif;
+	font-weight:600;
+	background-color:#F5F5F5;
+	border:1px solid #ccc;
+}

@@ -1,0 +1,77 @@
+/*
+File: print.css - print style sheet for WSA
+Extended version of a style sheet created by Eric Meyer
+see http://www.alistapart.com/articles/goingtoprint/ for details
+Revised: Jun 28th, 2004
+*/
+body {
+   background: white;
+   text-align:left;
+   font-size: 11pt;
+   width:auto;
+   margin: 0 0.2em;
+   }
+   
+p {
+	font-size: 11pt;
+	}
+div.hr {
+	height: 10em;
+	}
+
+#Nav,
+#BigImage,
+#TopShadow,
+#Footer,
+#BottomShadow,
+#Logo a,
+div.underline,
+p img
+	{
+	display: none;
+	}
+
+#Header {
+	width: auto;
+	height: auto;
+	margin: 0 1em;
+	padding: 0;
+	border: 0;
+	float: none !important;
+	color: black;
+	background: #FF0000;
+	}
+   
+#CB, #Content {
+	width: auto;
+	margin: 0 1em;
+	padding: 0;
+	border: 0;
+	float: none !important;
+	color: black;
+	background: transparent none;
+	}
+	
+div.entry {
+	margin-top: 10em;
+	}
+	
+#Content blockquote {
+	width:auto;
+	}
+   
+a:link, a:visited {
+	color: #520;
+	background: transparent;
+	font-weight: bold;
+	}
+/*
+#Content a:link:after, #content a:visited:after {
+	content: " (" attr(href) ") ";
+	font-size: 90%;
+	}
+	
+#Content a[href^="/"]:after {
+   content: " (http://www.webstandardsawards.com" attr(href) ") ";
+   }
+   */

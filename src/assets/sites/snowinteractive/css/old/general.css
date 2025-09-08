@@ -1,0 +1,147 @@
+/* -----------------------------------------------------
+  Filename:		general.css
+  Created by:	Johan Edlund | www.snowinteractive.com
+  Purpose:		general, layout and miscellaneous rules
+  Updated:		Sept 16th, 2005
+------------------------------------------------------ */
+
+/*-- Layout --*/
+html {
+	margin:0;
+	padding:0;
+	color:#555;
+	background:#45595b url(../images/txp/bgStretchTop.gif) repeat-x;
+	font-size: 100%;
+	/* force vertical scrollbar */
+	/* hicksdesign.co.uk/journal/forcing-scrollbars-now-even-better 
+	height: 100%; 
+	margin-bottom: 1px;*/
+}
+
+body {
+	margin:0;
+	padding:0;
+	text-align:center;
+	font:normal 76%/160% Verdana, Helvetica, Arial, sans-serif;
+}
+
+#HCont {
+	margin:0 50px;
+	padding:0;
+	text-align:center;
+	background:transparent;
+}
+
+#Header {
+	margin:0 auto;
+	padding:0;
+	text-align:left;
+	max-width:66em;
+	background:transparent;
+	height:113px;
+	position:relative;
+}
+
+/*-- Container Box --*/
+#Container {
+	background:#f4f2f4 url(../images/txp/bgF4F2F0.gif) repeat;
+	text-align:center;
+	margin:0;
+	padding:0 50px 1px 50px;
+}
+
+/*-- CB = Container Box --*/
+#CB {
+	margin:0 auto;
+	padding:0;
+	text-align:left;
+	max-width:66em;
+	background:url(../images/txp/divider.gif) repeat-y 62% 0;
+}
+
+#Content {
+	padding:0;
+	float:left;
+	width:59%;
+	margin:0;
+	background:transparent;
+}
+
+#Sidebar {
+	padding:0;
+	float:right;
+	width:36%;
+	margin:0;
+	background:transparent;
+}
+
+#FCont {
+	clear:both;
+	margin:0;
+	padding:20px 50px;
+	text-align:center;
+	background:#45595b url(../images/txp/bgStretchBottom.gif) repeat-x;
+}
+
+/*-- Footer --*/
+#Footer {
+	position:relative;
+	margin:0 auto;
+	padding:0;
+	text-align:left;
+	max-width:66em;
+	font-weight:bold;
+	color:#ccc;
+	background:transparent;
+}
+
+/*-- General --*/
+/* see kurafire.net/log/archive/2005/07/26/starting-css-revisited */
+
+/* Neutralize styling: 
+   Elements we want to clean out entirely: */
+form, fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+/* Neutralize styling: 
+   Elements with a vertical margin: */
+h2, h3, h4, h5, h6, p, pre,
+blockquote, ul, ol, dl, address {
+	margin: 1em 0;
+	padding: 0;
+}
+
+/* Apply left margin:
+   Only to the few elements that need it: */
+li, dd, blockquote {
+	margin-left: 1em;
+}
+
+
+/*general links*/
+a:link {font-weight:bold;color:#445c66; text-decoration:none;}
+a:visited {font-weight:bold;color:#445c55; text-decoration:none;}
+a:active {font-weight:bold;text-decoration:none;}
+a:hover {font-weight:bold;color:#9F9A9A;text-decoration:underline;}
+
+/*-- Various --*/
+.off-left {position:absolute;left:-999px;width:999px;}
+
+/*'fake' horizontal rule*/
+.hr {
+	clear:both;
+	height:3px;
+	width:auto;
+	margin:10px 0;
+	line-height:3px;
+	font-size:3px;
+	color:#666;
+	background:url(../images/txp/divider.gif) repeat-x;
+}
+hr, .hidden {display:none;}
+
+/*acronym*/
+acronym, abbr {font-style: normal;text-decoration: none;} 
+acronym[title], abbr[title] {border-bottom: 1px dotted #888;}
