@@ -1,0 +1,17 @@
+@use "../utils/variables";
+
+.entrylistPortfolio {
+    position: relative;
+    padding-left: 0;
+    padding-top: 3rem;
+
+    >*+* {
+        margin-top: variables.$spacing-y;
+    }
+
+    &__item {
+        position: relative;
+        // padding-left: variables.$spacing-x;
+        padding-left: 0;
+    }
+}

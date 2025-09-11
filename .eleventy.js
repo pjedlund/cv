@@ -46,7 +46,7 @@ module.exports = function(config) {
     config.addLayoutAlias('resume', 'resume.njk')
 
     // Collections
-    const collections = ['work', 'education']
+    const collections = ['work', 'education', 'portfolio']
     collections.forEach((name) => {
         config.addCollection(name, function(collection) {
             const folderRegex = new RegExp(`\/${name}\/`)
@@ -71,6 +71,8 @@ module.exports = function(config) {
     config.addPassthroughCopy('src/robots.txt')
     config.addPassthroughCopy('src/assets/images')
     config.addPassthroughCopy('src/assets/fonts')
+    config.addPassthroughCopy('src/assets/sites')
+
 
     // Deep-Merge
     config.setDataDeepMerge(true)

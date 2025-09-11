@@ -76,9 +76,12 @@ layout: base
 <div class="bgPortfolio">
     <section class="section container" id="section-portfolio">
         <h2 class="section__title">{{ strings.titles.portfolio }}</h2>
-        {% set entries = collections.work %}
+        <div class="lead p-summary">
+            <p>{{ strings.titles.portfolioIntro }}</p>
+        </div>
+        {% set entries = collections.portfolio %}
         {% set microformat = "p-experience" %}
-        {% include "entrylist.njk" %}
+        {% include "entrylistPortfolio.njk" %}
     </section>
 </div>
 </main>

@@ -42,7 +42,7 @@ $text-color: $gray-darkest;
 $text-color-secondary: $gray-lightest;
 
 $bg-color-footer: darken(desaturate($primary-color, 5%), 12%);
-$text-color-footer: $gray;
+$text-color-footer: darken($gray-light, 7%);
 
 // Typography
 //
