@@ -32,5 +32,10 @@
         *>* {
             margin-top: 1em;
         }
+
+        a {
+            color: lighten(variables.$gray-light, 1%);
+            text-decoration: underline;
+        }
     }
 }
