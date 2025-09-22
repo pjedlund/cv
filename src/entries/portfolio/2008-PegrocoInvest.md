@@ -9,4 +9,4 @@ start: 2008-05-01
 end: 2018-12-31
 ---
 
-UX- and graphic design. Front-end development. Flash and ActionScriptning. Business cards. Custom [Textpattern](https://www.textpattern.com) theme.
+UX-design an front-end development. Flash and ActionScriptning. Logotype. Business cards. Custom [Textpattern](https://www.textpattern.com) theme.
