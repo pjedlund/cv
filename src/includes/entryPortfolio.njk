@@ -39,7 +39,10 @@
 
     {% if entry.data.thumb %}
         {%- set thumbUrl -%}/assets/images/{{ entry.data.thumb }}{% endset %}
-        <img class="" src="{{ thumbUrl }}"  alt="alt- {{ thumbUrl }}" />
+            {% if entry.data.lightbox %}
+                {%- set lightboxUrl -%}/assets/images/{{ entry.data.lightbox }}{% endset %}
+        <a href="{{ lightboxUrl }}"><img class="" src="{{ thumbUrl }}"  alt="alt- {{ thumbUrl }}" /></a>
+        {% endif %}
     {% endif %}
 
 
