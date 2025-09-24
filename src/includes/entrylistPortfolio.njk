@@ -1,5 +1,5 @@
 {% if entries %}
-<ul class="entrylistPortfolio" reversed>
+<ul class="entrylistPortfolio">
     {% for entry in entries | reverse %}
     <li class="entrylistPortfolio__item h-event {% if microformat %}{{ microformat }}{% endif %}">
         {% include "entryPortfolio.njk" %}
