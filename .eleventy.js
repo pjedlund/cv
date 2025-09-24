@@ -1,5 +1,6 @@
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const markdownIt = require('markdown-it')
+//const lightbox = require('chocolat')
 
 const filters = require('./utils/filters.js')
 const transforms = require('./utils/transforms.js')
@@ -9,6 +10,7 @@ const iconsprite = require('./utils/iconsprite.js')
 module.exports = function(config) {
     // Plugins
     config.addPlugin(pluginRss)
+    //config.addPlugin(lightbox)
     // Filters
     Object.keys(filters).forEach((filterName) => {
         config.addFilter(filterName, filters[filterName])
@@ -72,6 +74,8 @@ module.exports = function(config) {
     config.addPassthroughCopy('src/assets/images')
     config.addPassthroughCopy('src/assets/fonts')
     config.addPassthroughCopy('src/assets/sites')
+    config.addPassthroughCopy('src/assets/scripts/chocolat.js')
+    config.addPassthroughCopy('src/assets/styles/chocolat.css')
 
 
     // Deep-Merge
